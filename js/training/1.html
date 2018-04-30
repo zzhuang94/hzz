@@ -1,0 +1,11 @@
+<script src='./jquery.min.js'></script>
+
+<p data-auto-bind="kobe"></p>
+
+<script>
+$("[data-auto-bind]").each(function(index, dom) {
+    var $this = $(dom);
+    var bindName = $this.data("autoBind");
+    console.info("aaa", bindName);
+});
+</script>

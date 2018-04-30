@@ -1,0 +1,18 @@
+var obj = {
+    id: "aweson",
+    count : 0,
+    cool: function coolFn() {
+        var self = this;
+        if (self.count < 1) {
+            setTimeout(function timer() {
+                self.count ++;
+                console.log("aaaa");
+            })
+        }
+        console.log(this.id);
+    }
+}
+
+var id = "zzhuang";
+obj.cool();
+setTimeout(obj.cool, 10);

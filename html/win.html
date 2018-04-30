@@ -1,0 +1,11 @@
+<script>
+function foo(a) {
+    b = a * 2;
+    function bar(c) {
+        console.log( a, b, c );
+    }
+    bar( b * 3 );
+}
+a = 100;
+foo( 2 ); // 2, 4, 12
+</script>
