@@ -10,3 +10,4 @@ var obj = {
 console.log(obj.a);
 obj.a = 100;
 console.log(obj.a);
+console.log(Object.keys(obj));
