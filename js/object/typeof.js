@@ -1,0 +1,11 @@
+console.log(typeof null);
+console.log(typeof true);
+console.log(typeof 124);
+console.log(typeof 1.23);
+console.log(typeof "1.234");
+console.log(typeof []);
+console.log(typeof [0]);
+console.log(typeof {});
+console.log(typeof {a: 'AA'});
+console.log(typeof function a(){});
+console.log(typeof a);
